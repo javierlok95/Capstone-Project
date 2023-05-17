@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  float: right;
+  font-size: 18px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 13px 10px 13px 10px;
+}
+
+li {
+  margin: 0 10px;
+}
+
+nav li a {
+  color: #fcf9f9;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: bold;
+}
+
+nav li a:hover {
+  color: #ebebeb;
+  background-color: #082a1b;
+}

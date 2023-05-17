@@ -1,0 +1,353 @@
+main {
+  padding: 20px;
+}
+
+main h1 {
+  font-size: 36px;
+}
+
+article {
+  margin-top: 50px;
+}
+
+article h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/*Hero Description in the Main Component*/
+.hero-container {
+  display: flex;
+  justify-content: center;
+  background-color: #c1a725;
+  padding: 2rem;
+  gap: 2rem;
+  flex-direction: row;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 48%;
+}
+
+.hero-content h1 {
+  margin-top: 0;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  margin: 35px auto;
+  animation: typing 3.5s steps(40, end);
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  flex-basis: 48%;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgb(7, 7, 7);
+}
+
+.read-more {
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.read-more:hover {
+  background-color: #ffa000;
+}
+
+.reserve-table-button {
+  background-color: #006400;
+  color: #fff;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  max-width: fit-content;
+  font-size: 15px;
+}
+
+.reserve-table-button:hover {
+  background-color: #008000;
+  color: #ebebeb;
+}
+
+.hero-paragraph {
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/*Highlights in the Main Component*/
+.specials-container {
+  display: grid;
+  background-color: #98b10a;
+  padding: 2rem;
+}
+
+.specials-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.special-of-the-week h2 {
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 2px 4px #000000;
+  animation: bounce 1s ease-in-out infinite;
+  font-size: 50px;
+  text-decoration: underline;
+  margin: 15px;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Greek Salad CSS */
+.greek-salad {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.description-salad {
+  max-height: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.greek-salad-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.greek-salad-price {
+  font-weight: 700;
+  color: rgb(255, 56, 34);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.greek-salad-name {
+  margin-right: 1.5em;
+  font-weight: 700;
+}
+
+.order-btn1 {
+  background-color: #008000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.order-btn1:hover {
+  background-color: #008000;
+  color: #ebebeb;
+}
+
+.salad-image img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Bruschetta CSS */
+.bruschetta {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.bruschetta-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.bruschetta-price {
+  font-weight: 700;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(255, 56, 34);
+}
+
+.description-bruschetta {
+  max-height: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.order-btn2 {
+  background-color: #008000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.order-btn2:hover {
+  background-color: #008000;
+  color: #ebebeb;
+}
+
+.bruschetta-image img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Lemon Meringue Tart CSS */
+.lemon-dessert {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.lemon-dessert-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.lemon-dessert-price {
+  font-weight: 700;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(255, 56, 34);
+}
+
+.description-dessert {
+  max-height: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.order-btn3 {
+  background-color: #008000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.order-btn3:hover {
+  background-color: #008000;
+  color: #ebebeb;
+}
+
+.dessert-image img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*Testimonials in the Main Component*/
+.card {
+  border-radius: .7rem;
+}
+
+.testimonials-content {
+  display: grid;
+  margin: 2rem;
+}
+
+.fw-bold.mb-4 {
+  font-size: 40px;
+}
+
+.mb-4.pb-2.mb-md-5.pb-md-0 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.mb-2 {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+/*About us CSS*/
+.py-6 {
+  margin-bottom: 45px;
+  padding: 20px;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 700px) {
+  .hero-container {
+    flex-direction: column-reverse;
+  }
+
+  .hero-image img {
+    max-width: 75%;
+  }
+
+  .specials-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
