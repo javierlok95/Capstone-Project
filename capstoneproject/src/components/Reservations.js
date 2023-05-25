@@ -125,7 +125,6 @@ const Reservations = () => {
         </fieldset>
       </form>
     </div>
-
   )
 }
 
