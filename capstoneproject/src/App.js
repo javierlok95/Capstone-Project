@@ -22,6 +22,7 @@ function App() {
   return (
     <>
       <HeaderNav />
+      <Main />
       <Routes>
         <Route path="/main" element={<Main />} />
         <Route path="/menu" element={<Menu />} />
