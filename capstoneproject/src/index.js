@@ -7,8 +7,10 @@ import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 /*Make Sure to install the react-router-dom npm, otherwise it will give you an error then set it up as <BrowserRouter>*/
+  <React.StrictMode>
   <BrowserRouter>
     <App />
   </BrowserRouter>
+  </React.StrictMode>
 );
 

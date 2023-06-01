@@ -8,7 +8,6 @@ import Footer from './components/Footer';
 import Reservations from './components/Reservations';
 import { Routes, Route, } from 'react-router-dom'
 
-
 const HeaderNav = () => {
   return (
     <div className="header-nav-container">
@@ -23,9 +22,10 @@ function App() {
     <>
       <HeaderNav />
       <Routes>
-        <Route path="/main" element={<Main />} />
-        <Route path="/menu" element={<Menu />} />
-        <Route path="/reservations" element={<Reservations />} />
+        <Route exact path="/" element={<Main />} />
+        <Route exact path="/main" element={<Main />} />
+        <Route exact path="/menu" element={<Menu />} />
+        <Route exact path="/reservations" element={<Reservations />} />
       </Routes>
       <Footer />
     </>
